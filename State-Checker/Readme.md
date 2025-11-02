@@ -5,6 +5,11 @@ Our observation is that when a developer declares a state variable in a smart co
 
 The checker is supported by [python-solidity-parser](https://www.npmjs.com/package/@solidity-parser/parser).
 
+## Prerequisites
+- **npm** (version 10.9.2 or higher)
+- **Node.js** (version 20.18.0 or higher)
+- **Python** (version 3.8 or higher)
+
 ## How To Use the Checker
 The checker supports detecting multiple projects simultaneously. Please place the smart contract projects to be detected in the `projects/` directory and run `checker.py` to perform the detection. 
 
