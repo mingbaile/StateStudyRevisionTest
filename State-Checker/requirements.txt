@@ -1,4 +1,8 @@
-# Required Environments
-npm>=10.9.2
-node>=20.18.0
-python>=3.8
+# Environment and Dependency Requirements
+# ========================================
+
+# Required Runtime Environments:
+# - Python 3.8+
+# - Node.js 20.18.0+
+# - npm 10.9.2+
+# All Node.js dependencies are pre-installed in node_modules/
