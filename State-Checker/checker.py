@@ -1,13 +1,16 @@
 import subprocess
 import os
+import sys
 
 def main():
     input_dir = 'projects'
     output_dir = 'ASTJsonFiles'
 
+    python_executable = sys.executable
+
     print(f"Generating AST files to ASTJsonFiles...")
     result = subprocess.run(
-        ['python', 'generating_AST.py', '--input', input_dir, '--output', output_dir],
+        [python_executable, 'generating_AST.py', '--input', input_dir, '--output', output_dir],
         capture_output=True, text=True, encoding='utf-8'
     )
 
@@ -18,7 +21,7 @@ def main():
 
     print("Starting the process of analyzing state variables...")
     result2 = subprocess.run(
-        ['python', 'analyzing_state_variables.py', output_dir],
+        [python_executable, 'analyzing_state_variables.py', output_dir],
         capture_output=True, text=True, encoding='utf-8'
     )
 
