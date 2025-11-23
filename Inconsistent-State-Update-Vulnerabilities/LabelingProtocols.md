@@ -1,4 +1,4 @@
-# Classification criteria / Labeling protocol
+# Labeling protocols
 ## Root Causes
 ### Dynamic Dependent Update Omission (Omission of Update for Dynamic Operation Dependent State Variables).
 
