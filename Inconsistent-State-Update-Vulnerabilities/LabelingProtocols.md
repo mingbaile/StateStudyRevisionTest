@@ -50,5 +50,5 @@ During the transitional phase of a transaction, critical state updates have not 
 
 Disrupt the normal logic of the contract, preventing its critical functions from operating correctly. Attackers exploit flaws where key state variables are not correctly updated after specific operations (e.g., updating administrative addresses, cross-chain message processing, etc.), and use abnormal operation sequences (such as overwriting critical state variables) or input extreme parameters to undermine the management of critical states. This causes subsequent modules relying on these state variables to fail (e.g., permission verification, message forwarding decisions, etc.) or results in permanent asset locking.
 
-## 
+## Cohen’s kappa coefficients
 The Cohen’s kappa coefficients are 0.82, 0.84, and 0.88 for the results about the root cause, the fix strategy, and the exploitation method respectively.
